@@ -22,5 +22,5 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no ubuntu@18.195.43.115 << 'EOF'
             cd /home/ubuntu/server/nodeap;
-            echo "suup" >> text.txt
+            git clone https://github.com/luka-akhaladze/nodeap;
           EOF
