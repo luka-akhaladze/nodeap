@@ -21,5 +21,5 @@ jobs:
       - name: "Deploy to AWS instance"
         run: |
           ssh -o StrictHostKeyChecking=no ubuntu@18.195.43.115 << 'EOF'
-            echo "suuuuuup"
+            echo "suuuuuup" >> ~/text.txt
           EOF
